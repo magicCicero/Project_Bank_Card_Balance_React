@@ -1,0 +1,14 @@
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+button {
+  padding: 2rem 10rem;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+  border-radius: 2rem;
+}

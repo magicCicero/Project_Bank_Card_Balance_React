@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+  width: 100vw;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+
+.search-icon,
+.logo-icon,
+.darkmode-icon {
+  font-size: 2rem;
+}

@@ -1,0 +1,31 @@
+.card {
+  padding: 5rem;
+  border: 1px solid black;
+  border-radius: 5rem;
+  margin: 5rem;
+}
+.card-numbers {
+  background-color: black;
+  margin: -5rem;
+  padding: 5rem;
+  border: 1px solid black;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  color: white;
+}
+.sec-data {
+  display: flex;
+  gap: 2rem;
+}
+.pers-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pers-data img {
+  width: 20%;
+  background-color: white;
+  padding: 2rem;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+}
