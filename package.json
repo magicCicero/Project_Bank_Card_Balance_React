@@ -1,6 +1,6 @@
 {
-  "name": "bank-balance-card-react",
   "homepage": "http://alpayc.github.io/Project_Bank_Card_Balance_React",
+  "name": "bank-balance-card-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
