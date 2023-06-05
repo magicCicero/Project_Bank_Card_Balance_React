@@ -1,16 +1,16 @@
 {
   "name": "bank-balance-card-react",
-  "home": "http://alpayc.github.io/",
+  "home": "http://alpayc.github.io/Project_Bank_Card_Balance_React",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.2.0",
