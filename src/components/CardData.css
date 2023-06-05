@@ -59,3 +59,23 @@
 .inner-card-data {
   height: 25vh;
 }
+@media (min-width: 1200px) {
+  .pers-data img {
+    width: 10%;
+  }
+  .card-numbers {
+    height: 65%;
+  }
+  .inner-card-data {
+    height: 45vh;
+  }
+  .card-numbers h2 {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+}

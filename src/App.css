@@ -30,3 +30,8 @@ header {
   background-image: url("data:image/svg+xml;utf8,%3Csvg viewBox=%220 0 1000 1000%22 xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cdefs%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M827.5 658.5Q683 817 489 836T261 677.5q-34-177.5 0-355t238-176Q703 148 837.5 324t-10 334.5Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22%2349fffb%22 d=%22M827.5 658.5Q683 817 489 836T261 677.5q-34-177.5 0-355t238-176Q703 148 837.5 324t-10 334.5Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
   margin-bottom: -5rem;
 }
+@media (min-width: 1200px) {
+  header {
+    height: 70vh;
+  }
+}

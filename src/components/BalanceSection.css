@@ -8,3 +8,9 @@
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
+@media (min-width: 1200px) {
+  .balance-container {
+    background-color: white;
+  }
+}

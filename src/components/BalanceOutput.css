@@ -14,3 +14,8 @@
   font-size: 3rem;
   font-weight: 900;
 }
+@media (min-width: 1200px) {
+  .balance-output {
+    font-size: 3rem;
+  }
+}

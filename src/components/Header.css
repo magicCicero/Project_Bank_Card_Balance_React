@@ -28,3 +28,12 @@ nav {
   transition: box-shadow 0.15s, transform 0.15s;
   padding: 1rem 3rem;
 }
+@media (min-width: 1200px) {
+  .search-icon,
+  .darkmode-icon {
+    width: 3%;
+  }
+  .logo-icon {
+    width: 10%;
+  }
+}
