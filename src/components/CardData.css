@@ -1,17 +1,38 @@
 .card {
-  padding: 5rem;
+  padding: 3rem;
   border: 1px solid black;
-  border-radius: 5rem;
-  margin: 5rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .card-numbers {
-  background-color: black;
-  margin: -5rem;
-  padding: 5rem;
-  border: 1px solid black;
-  border-top-left-radius: 5rem;
-  border-top-right-radius: 5rem;
+  background: url("./n26_logo.png") center no-repeat;
+
+  background-size: 60%;
+  background-color: rgba(0, 0, 0, 0.958);
+  margin: -3rem;
+  padding: 2rem 2rem 10rem 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 80%;
+  gap: 2rem;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.442) 0 6px 20px;
+}
+.card-numbers h2 {
+  font-family: creditcard;
+  font-size: 1.6rem;
+  font-weight: 100;
+  box-shadow: -6px -8px 29px 0px rgba(0, 0, 0, 0.73);
 }
 .sec-data {
   display: flex;
@@ -21,11 +42,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 50%;
+  margin: -1rem;
 }
 .pers-data img {
-  width: 20%;
-  background-color: white;
+  width: 30%;
+  background-color: rgb(255, 255, 255);
   padding: 2rem;
-  border-top-left-radius: 5rem;
-  border-top-right-radius: 5rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  box-shadow: 0 0px 12px 0 rgba(31, 38, 135, 0);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 10px;
+}
+.inner-card-data {
+  height: 25vh;
 }

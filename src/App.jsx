@@ -6,9 +6,13 @@ import BalanceSection from "./components/BalanceSection";
 function App() {
   return (
     <>
-      <Header />
-      <CardData />
-      <BalanceSection />
+      <header>
+        <Header />
+        <CardData />
+      </header>
+      <main>
+        <BalanceSection />
+      </main>
     </>
   );
 }

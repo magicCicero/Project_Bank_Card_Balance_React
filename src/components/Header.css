@@ -6,10 +6,25 @@ nav {
   width: 100vw;
   padding: 2rem;
   margin-bottom: 5rem;
+  height: 9vh;
 }
 
 .search-icon,
-.logo-icon,
 .darkmode-icon {
-  font-size: 2rem;
+  width: 6%;
+  cursor: pointer;
+}
+.logo-icon {
+  cursor: pointer;
+  object-fit: cover;
+  width: 30%;
+  background-color: #fcfcfd;
+  border-radius: 2rem;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  color: #36395a;
+  position: relative;
+  transition: box-shadow 0.15s, transform 0.15s;
+  padding: 1rem 3rem;
 }

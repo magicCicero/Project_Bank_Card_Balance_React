@@ -4,9 +4,9 @@ function Header() {
   return (
     <>
       <nav>
-        <button className="search-icon">Suche</button>
-        <button className="logo-icon">Logo</button>
-        <button className="darkmode-icon">Darkmode</button>
+        <img className="search-icon" src="./search.png" alt="" />
+        <img className="logo-icon" src="./n26_logo.png" alt="" />
+        <img className="darkmode-icon" src="./dark-mode.png" alt="" />
       </nav>
     </>
   );

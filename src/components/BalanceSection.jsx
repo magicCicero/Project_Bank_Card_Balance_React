@@ -1,15 +1,32 @@
+import React, { useState } from "react";
+import BalanceOutput from "./BalanceOutput";
+import BalanceInput from "./BalanceInput";
 import "./BalanceSection.css";
-import InputFields from "./InputFields";
 
 function BalanceSection() {
+  const [currentBalance, setCurrentBalance] = useState(0);
+  const [insertedNum, setInsertedNum] = useState(0);
+
+  const addValue = () => {
+    setCurrentBalance(currentBalance + insertedNum);
+    setInsertedNum(0);
+  };
+
+  const minusValue = () => {
+    setCurrentBalance(currentBalance - insertedNum);
+    setInsertedNum(0);
+  };
+
   return (
     <>
       <section className="balance-container">
-        <div className="balance-output-container">
-          <p className="balance-output">100€</p>
-          <p className="current-balance-txt">CURRENT BALANCE</p>
-        </div>
-        <InputFields />
+        <BalanceOutput currentBalance={currentBalance} />
+        <BalanceInput
+          insertedNum={insertedNum}
+          setInsertedNum={setInsertedNum}
+          addValue={addValue}
+          minusValue={minusValue}
+        />
       </section>
     </>
   );

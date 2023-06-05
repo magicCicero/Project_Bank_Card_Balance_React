@@ -14,7 +14,7 @@ function CardData() {
             </div>
           </div>
           <div className="pers-data">
-            <h3>Alpay Cel</h3>
+            <h3>ALPAY CELIK</h3>
             <img src="./mastercard_logo.png" alt="" />
           </div>
         </div>
